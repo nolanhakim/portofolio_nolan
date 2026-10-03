@@ -21,7 +21,8 @@ Website portofolio pribadi dengan estetika *Technical Minimalist / Editorial Mon
 ## Fitur
 
 **Tema**
-- Deteksi `prefers-color-scheme` + persistensi `localStorage`
+- Default **light** pada kunjungan pertama (tampilan awal selalu putih)
+- Persistensi `localStorage` — pilihan dark/light dipertahankan di kunjungan berikutnya
 - Anti-flicker: `theme-init.js` dijalankan `beforeInteractive`, sebelum paint pertama
 - Transisi global `0.35s` pada `background-color`, `color`, `border-color`
 - Toggle sun/moon dengan crossfade GSAP
