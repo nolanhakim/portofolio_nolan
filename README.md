@@ -45,7 +45,8 @@ Website portofolio pribadi dengan estetika *Technical Minimalist / Editorial Mon
 **Aksesibilitas**
 - Focus ring global `:focus-visible` dua-cincin (terbaca di tombol filled dan dark mode)
 - Touch target 44px untuk semua icon button
-- Menu mobile berupa overlay solid dengan body scroll lock — tidak mendorong konten
+- Menu mobile berupa overlay solid — tidak mendorong konten, tetap muncul di bawah header di posisi scroll mana pun
+- Scroll lock dipasang di `<html>` (bukan `<body>`) supaya `position: sticky` header tidak mati
 - Kontras teks: primary 19.9:1, secondary 7.73:1, muted 6.22:1 (light) — semua ≥ WCAG AA
 - `aria-label` pada seluruh kontrol ikon, `aria-live` pada status copy
 
