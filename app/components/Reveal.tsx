@@ -6,6 +6,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
+ScrollTrigger.config({ ignoreMobileResize: true });
 
 const variants = {
   rise: { y: 24, opacity: 0, scale: 1, x: 0, blur: "blur(0px)" },
@@ -52,7 +53,8 @@ export default function Reveal({
           trigger: ref.current,
           start: "top 85%",
           end: "bottom 25%",
-          toggleActions: "play reverse play reverse",
+          toggleActions: "play none none none",
+          invalidateOnRefresh: true,
         },
       },
     );

@@ -42,27 +42,27 @@ export default function Projects() {
         </div>
       </header>
 
-      <div className="mt-10 grid gap-8 md:grid-cols-2">
+      <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-4 md:gap-8 lg:grid-cols-3">
         {filtered.map((p) => (
           <article
             key={p.id}
             className="grid-item group border border-[var(--border-subtle)] rounded-xl overflow-hidden hover:border-[var(--border-strong)] transition-all flex flex-col justify-between bg-[var(--bg-canvas)] shadow-xs"
           >
             <div>
-              <div className="relative aspect-[16/9] overflow-hidden border-b border-[var(--border-subtle)] bg-[var(--bg-surface)]">
+              <div className="relative aspect-[4/3] md:aspect-[16/9] overflow-hidden border-b border-[var(--border-subtle)] bg-[var(--bg-surface)]">
                 <Image
                   src={p.image}
                   alt={p.name}
                   fill
-                  sizes="(min-width: 768px) 50vw, 100vw"
+                  sizes="(min-width: 1024px) 33vw, 50vw"
                   className="object-cover grayscale transition-[transform_0.5s_ease,filter_0.3s_ease] group-hover:scale-105 group-hover:grayscale-0"
                 />
               </div>
-              <div className="p-5 border-b border-[var(--border-subtle)] bg-[var(--bg-surface)] flex items-center justify-between transition-colors group-hover:border-[var(--border-strong)]">
-                <span className="font-mono text-[11px] font-semibold tracking-widest uppercase px-2.5 py-1 rounded bg-[var(--bg-canvas)] border border-[var(--border-subtle)]">
+              <div className="p-3.5 md:p-5 border-b border-[var(--border-subtle)] bg-[var(--bg-surface)] flex flex-wrap items-center justify-between gap-2 transition-colors group-hover:border-[var(--border-strong)]">
+                <span className="font-mono text-[10px] md:text-[11px] font-semibold tracking-widest uppercase px-2 md:px-2.5 py-1 rounded bg-[var(--bg-canvas)] border border-[var(--border-subtle)]">
                   {p.category}
                 </span>
-                <div className="flex gap-3 text-xs font-mono">
+                <div className="flex flex-wrap gap-x-3 gap-y-1 text-[11px] md:text-xs font-mono">
                   {p.source && p.source !== "https://github.com" && (
                     <a
                       href={p.source}
@@ -102,22 +102,22 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="p-6 flex flex-col gap-3">
-                <h3 className="text-xl font-bold tracking-[-0.015em] text-[var(--text-primary)]">
+              <div className="p-4 md:p-6 flex flex-col gap-2 md:gap-3">
+                <h3 className="text-base md:text-xl font-bold tracking-[-0.015em] text-[var(--text-primary)]">
                   {p.name}
                 </h3>
-                <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+                <p className="text-[13px] md:text-sm text-[var(--text-secondary)] leading-relaxed">
                   {p.description}
                 </p>
               </div>
             </div>
 
-            <div className="p-6 pt-0">
+            <div className="p-4 md:p-6 pt-0">
               <div className="flex flex-wrap gap-1.5 pt-4 border-t border-[var(--border-subtle)]">
                 {p.stack.map((s) => (
                   <span
                     key={s}
-                    className="font-mono text-[11px] tracking-wide px-2.5 py-1 border border-[var(--border-subtle)] bg-[var(--bg-surface)] rounded-md text-[var(--text-secondary)]"
+                    className="font-mono text-[10px] md:text-[11px] tracking-wide px-2 md:px-2.5 py-1 border border-[var(--border-subtle)] bg-[var(--bg-surface)] rounded-md text-[var(--text-secondary)]"
                   >
                     {s}
                   </span>
