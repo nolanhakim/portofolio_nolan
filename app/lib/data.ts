@@ -99,7 +99,7 @@ export const projects = [
     description:
       "Website interaktif photobooth berbasis browser yang memungkinkan pengguna mengambil foto langsung dengan berbagai efek frame, layout grid, dan unduhan instan dalam format digital.",
     stack: ["Next.js", "Tailwind CSS", "JavaScript"],
-    demo: "https://photoboothkalahan.vercel.app/",
+    demo: "https://vibebooth-orcin.vercel.app/",
     image: "/images/photobooth-placeholder.svg",
   },
   {
