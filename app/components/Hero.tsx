@@ -62,7 +62,7 @@ export default function Hero() {
       <div className="mt-8 grid gap-8 md:grid-cols-[1fr_340px]">
         <div className="space-y-4">
           <p className="js-hero-fade text-lg leading-relaxed text-[var(--text-primary)] font-medium">
-            Web Developer &amp; IT Support Specialist — Lulusan D3 Teknologi Informasi Universitas Brawijaya (IPK 3,89/4,00) &amp; Pemegang Sertifikasi BNSP Junior Web Developer.
+            Web Developer &amp; IT Support Specialist — Lulusan D3 Teknologi Informasi Universitas Brawijaya (IPK 3,89/4,00) &amp; MemilikiSertifikasi BNSP Junior Web Developer.
           </p>
           <p className="js-hero-fade text-base leading-relaxed text-[var(--text-secondary)]">
             Berpengalaman membangun antarmuka responsif dan terintegrasi menggunakan <strong>Next.js</strong>, <strong>Laravel</strong>, <strong>JavaScript</strong>, <strong>TailwindCSS</strong>, serta mengelola infrastruktur CMS <strong>WordPress</strong> dan troubleshooting jaringan <strong>MikroTik</strong> &amp; hardware.
@@ -85,7 +85,7 @@ export default function Hero() {
             </div>
             <div className="flex justify-between">
               <dt className="text-[var(--text-muted)]">LOCATION</dt>
-              <dd className="text-right">Surakarta, ID</dd>
+              <dd className="text-right">Sukoharjo, ID</dd>
             </div>
           </dl>
         </div>

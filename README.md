@@ -153,7 +153,7 @@ Panduan lengkap: [`design_system_visual_guidelines.md`](./design_system_visual_g
 
 ## Kontak
 
-**Catraliya Nolan Hakim** — Web Developer (Front-End & Back-End) & IT Support · Surakarta, Indonesia
+**Catraliya Nolan Hakim** — Web Developer (Front-End & Back-End) & IT Support · Sukoharjo, Indonesia
 
 - Email: [nolanhakimm10@gmail.com](mailto:nolanhakimm10@gmail.com)
 - GitHub: [github.com/nolanhakim](https://github.com/nolanhakim)

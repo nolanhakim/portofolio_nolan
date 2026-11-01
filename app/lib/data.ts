@@ -10,7 +10,7 @@ export const contact = {
   phone: "+62 895422854189",
   website: "https://nolanhakim.my.id",
   websiteDisplay: "nolanhakim.my.id",
-  location: "Surakarta, Jawa Tengah, Indonesia",
+  location: "Sukoharjo, Jawa Tengah, Indonesia",
   instagram: "https://instagram.com/catranolanhkm",
   instagramHandle: "@catranolanhkm",
   github: "https://github.com/nolanhakim",
@@ -176,7 +176,22 @@ export const skills = {
   ],
 };
 
-export const timeline = [
+export type TimelineItem = {
+  year: string;
+  type: string;
+  role: string;
+  place: string;
+  desc: string;
+};
+
+export const timeline: TimelineItem[] = [
+  {
+    year: "Okt 2026 — Sekarang",
+    type: "Freelance",
+    role: "Graphic Designer & Web Developer",
+    place: "Typical Studio",
+    desc: "Melakukan perancangan dan pembuatan materi visual (branding, promosi, dan aset media sosial). Merancang, membangun, serta mengoptimalkan antarmuka (UI/UX). Memelihara, melakukan pembaruan konten, serta menangani troubleshooting pada sistem dan situs web klien secara berkala.",
+  },
   {
     year: "Jun 2026 — Sep 2026",
     type: "Magang",

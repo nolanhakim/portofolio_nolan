@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "Catraliya Nolan Hakim",
     "Catraliya",
     "Nolan Hakim",
-    "Web Developer Surakarta",
+    "Web Developer Sukoharjo",
     "Frontend Developer",
     "Backend Developer",
     "Laravel",

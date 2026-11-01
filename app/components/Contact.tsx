@@ -11,7 +11,7 @@ function yearTzLabel() {
     hour: "2-digit",
     minute: "2-digit",
   });
-  return `${now.getFullYear()} — Surakarta, WIB ${hhmm}`;
+  return `${now.getFullYear()} — Sukoharjo, WIB ${hhmm}`;
 }
 
 export default function Contact() {
